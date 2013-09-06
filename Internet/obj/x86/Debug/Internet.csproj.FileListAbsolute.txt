@@ -1,0 +1,7 @@
+C:\Users\Tatiane Pedro\Documents\Visual Studio 2010\Projects\Internet\Internet\bin\Debug\Internet.exe
+C:\Users\Tatiane Pedro\Documents\Visual Studio 2010\Projects\Internet\Internet\bin\Debug\Internet.pdb
+C:\Users\Tatiane Pedro\Documents\Visual Studio 2010\Projects\Internet\Internet\obj\x86\Debug\Internet.Form1.resources
+C:\Users\Tatiane Pedro\Documents\Visual Studio 2010\Projects\Internet\Internet\obj\x86\Debug\Internet.Properties.Resources.resources
+C:\Users\Tatiane Pedro\Documents\Visual Studio 2010\Projects\Internet\Internet\obj\x86\Debug\Internet.csproj.GenerateResource.Cache
+C:\Users\Tatiane Pedro\Documents\Visual Studio 2010\Projects\Internet\Internet\obj\x86\Debug\Internet.exe
+C:\Users\Tatiane Pedro\Documents\Visual Studio 2010\Projects\Internet\Internet\obj\x86\Debug\Internet.pdb
