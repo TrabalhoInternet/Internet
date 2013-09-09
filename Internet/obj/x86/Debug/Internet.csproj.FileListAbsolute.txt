@@ -5,3 +5,4 @@ C:\Users\Tatiane Pedro\Documents\Visual Studio 2010\Projects\Internet\Internet\o
 C:\Users\Tatiane Pedro\Documents\Visual Studio 2010\Projects\Internet\Internet\obj\x86\Debug\Internet.csproj.GenerateResource.Cache
 C:\Users\Tatiane Pedro\Documents\Visual Studio 2010\Projects\Internet\Internet\obj\x86\Debug\Internet.exe
 C:\Users\Tatiane Pedro\Documents\Visual Studio 2010\Projects\Internet\Internet\obj\x86\Debug\Internet.pdb
+C:\Users\Tatiane Pedro\Documents\Visual Studio 2010\Projects\Internet\Internet\obj\x86\Debug\Internet.csprojResolveAssemblyReference.cache
