@@ -16,49 +16,108 @@ namespace Internet
             InitializeComponent();
         }
 
-        private void toolStripButton4_Click(object sender, EventArgs e)
+        //private void webBrowser1_ProgressChanged(object sender, WebBrowserProgressChangedEventArgs e)
+        //{
+        //    try
+        //    {
+        //        toolStripProgressBar1.Value = Convert.ToInt32(e.CurrentProgress);
+        //        toolStripProgressBar1.Maximum = Convert.ToInt32(e.CurrentProgress);
+        //    }
+        //    catch (Exception)
+        //    {
+        //        //MessageBox.Show(ex.Message);
+        //    }
+        //}
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            webBrowser1.Navigate(toolStripTextBox1.Text);
+
         }
 
-        private void toolStripButton1_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
             webBrowser1.GoBack();
         }
 
-        private void toolStripButton2_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
             webBrowser1.GoForward();
         }
 
-        private void toolStripButton3_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
             webBrowser1.Refresh();
         }
 
-        private void toolStripButton5_Click(object sender, EventArgs e)
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
             webBrowser1.Stop();
         }
 
-        private void toolStripButton6_Click(object sender, EventArgs e)
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
             webBrowser1.GoHome();
         }
 
-        private void webBrowser1_ProgressChanged(object sender, WebBrowserProgressChangedEventArgs e)
+        private void pictureBox6_Click(object sender, EventArgs e)
         {
-            try
+            webBrowser1.Navigate(textBox1.Text);
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://www.facebook.com/");
+        }
+
+        private void textBox1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
             {
-                toolStripProgressBar1.Value = Convert.ToInt32(e.CurrentProgress);
-                toolStripProgressBar1.Maximum = Convert.ToInt32(e.CurrentProgress);
-            }
-            catch (Exception)
-            {
-                //MessageBox.Show(ex.Message);
+                if (e.Shift)
+                {
+                    SendKeys.Send("+{TAB}");
+
+                }
+                else
+                {
+                    SendKeys.Send("+{TAB}");
+                }
             }
         }
 
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://www.google.com/");
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://www.youtube.com/");
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://www.skype.com/");
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("https://twitter.com/");
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://instagram.com/");
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://www.github.com/");
+        }
+
+        
+
+       
         
         
     }
